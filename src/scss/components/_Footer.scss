@@ -1,0 +1,40 @@
+@import "../variables";
+
+.footer {
+    padding: 1.5rem 2.8rem;
+    background: $darkTeal;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 6rem;
+
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 0.8rem;
+
+        & p {
+            line-height: 20px;
+            color: $white;
+        }
+
+        & p:last-child {
+            margin-top: 1.27rem;
+        }
+    }
+}

@@ -1,0 +1,231 @@
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 4rem;
+
+    @media screen and (max-width: 1206px) {
+        flex-direction: column;
+    }
+
+    &__space {
+        & h1 {
+            max-width: 60%;
+            margin-bottom: 1.56rem;
+            font-family: Ferry;
+            text-transform: uppercase;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 2.5rem;
+            }
+        }
+
+        & p {
+            max-width: 50%;
+            margin-bottom: 2.9rem;
+            font-size: 1.25rem;
+        }
+    }
+
+    &__form {
+        position: relative;
+
+        @media screen and (max-width: 1206px) {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &__mainDoc {
+        position: absolute;
+        top: -26%;
+        right: -12%;
+
+        @media screen and (max-width: 1206px) {
+            right: 5%;
+        }
+    }
+}
+
+.form {
+    display: flex;
+    max-width: fit-content;
+    padding: 1.8rem 2.75rem;
+    border-radius: $mediumRadius;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+
+    @media screen and (max-width: $tablet) {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-right: 1rem;
+    }
+
+    &__label {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        width: 70%;
+
+        @media screen and (max-width: $tablet) {
+            width: 100%;
+        }
+    }
+
+    &__labelName {
+        & sup {
+            font-size: 1.3rem;
+        }
+    }
+
+    &__input {
+        margin-top: 1rem;
+        padding: 0.8rem 1rem;
+        color: $lightText;
+        border: 1px solid $grey;
+        border-radius: $mainRadius;
+
+        &::placeholder {
+            color: $grey;
+        }
+    }
+
+    &__supMargin {
+        margin-bottom: 2rem !important;
+    }
+
+    &__dPicker {
+        width: 28rem;
+
+        @media screen and (max-width: $tablet) {
+            width: 100%;
+        }
+    }
+
+    &__datePicker {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+
+        @media screen and (max-width: $mobileL) {
+            flex-direction: column;
+        }
+    }
+
+    &__dtPicker {
+        width: 100%;
+    }
+
+    &__cheks {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__checkList {
+        @media screen and (max-width: $tablet) {
+            display: none;
+        }
+    }
+
+    &__submitBtn {
+        display: flex;
+        flex-direction: column;
+
+        & span {
+            opacity: 0.5;
+        }
+    }
+
+    &__btn {
+        margin: 0.6rem;
+        padding: 1rem 0;
+        background: $velvet;
+        color: $white;
+        font-size: 1.37rem;
+        border: none;
+        outline: none;
+        border-radius: $mainRadius;
+        opacity: 0.5;
+    }
+
+    &__error {
+        height: 1rem;
+        margin-top: 0.5rem;
+        color: $tomato;
+        font-size: 0.8rem;
+    }
+}
+
+.supError {
+    & sup {
+        color: $tomato;
+    }
+}
+
+.errorBorder {
+    border: 1px solid $tomato;
+    box-shadow: 0 0 20px rgba(255, 99, 71, 0.2);
+}
+
+.datepicker {
+    width: 100%;
+    margin-right: 1.25rem;
+}
+
+.active {
+    opacity: 1;
+    cursor: pointer;
+
+    &:hover {
+        background: lighten($velvet, 5%);
+    }
+}
+
+.searchbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    &__docs {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        margin-bottom: 30%;
+        
+        @media screen and (max-width: 1206px) {
+            display: none;
+        }
+    }
+
+    &__searchMan {
+        width: 100%;
+
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+.react-datepicker-wrapper {
+    width: 95%;
+
+    @media screen and (max-width: $mobileL) {
+        width: 100%;
+    }
+}

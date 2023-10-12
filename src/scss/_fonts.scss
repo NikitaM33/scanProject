@@ -1,0 +1,74 @@
+// FERRY =============
+@font-face {
+  font-family: 'Ferry';
+  src: url('./fonts/ferry/ferry_black-webfont.eot');
+  src: local('./fonts/ferry/ferry black'), local('ferry-black'),
+    url('./fonts/ferry/ferry_black-webfont.eot') format('embedded-opentype'),
+    url('./fonts/ferry/ferry_black-webfont.svg') format('svg'),
+    url('./fonts/ferry/ferry_black-webfont.ttf') format('truetype'),
+    url('./fonts/ferry/ferry_black-webfont.woff') format('woff'),
+    url('./fonts/ferry/ferry_black-webfont.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+// INTER =============
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter/inter-variablefont_slntwght-webfont.eot');
+  src: local('./fonts/inter/inter Medium'), local('inter-Medium'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.eot')
+      format('embedded-opentype'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.svg') format('svg'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.ttf') format('truetype'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.woff') format('woff'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.woff2')
+      format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter/inter-variablefont_slntwght-webfont.eot');
+  src: local('./fonts/inter/inter Regular'), local('inter-Regular'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.eot')
+      format('embedded-opentype'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.svg') format('svg'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.ttf') format('truetype'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.woff') format('woff'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.woff2')
+      format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter/inter-variablefont_slntwght-webfont.eot');
+  src: local('./fonts/inter/inter Light'), local('inter-Light'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.eot')
+      format('embedded-opentype'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.svg') format('svg'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.ttf') format('truetype'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.woff') format('woff'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.woff2')
+      format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter/inter-variablefont_slntwght-webfont.eot');
+  src: local('./fonts/inter/inter Thin'), local('inter-Thin'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.eot')
+      format('embedded-opentype'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.svg') format('svg'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.ttf') format('truetype'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.woff') format('woff'),
+    url('./fonts/inter/inter-variablefont_slntwght-webfont.woff2')
+      format('woff2');
+  font-weight: 200;
+  font-style: normal;
+}
