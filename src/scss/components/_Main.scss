@@ -17,6 +17,10 @@
             max-width: 46.4rem;
             font-family: Ferry, sans-serif;
             margin-bottom: 1.25rem;
+
+            @media screen and (max-width: $tablet) {
+                font-size: 1.8rem;
+            }
         }
 
         & p {
